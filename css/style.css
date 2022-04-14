@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffffff;
+    background: linear-gradient(132deg,#ffffff 0%, #ffffff 40%, #d2f8d2 80%);
+    background: -webkit-linear-gradient(132deg,#ffffff 0%, #ffffff 40%, #d2f8d2 80%);
+    background: -moz-linear-gradient(132deg,#ffffff 0%, #ffffff 40%, #d2f8d2 80%);
+}
+  
+header {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 40px;
+}
+header p{
+    font-size: 18px;
+}
+main{
+    padding-top: 2%;
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding-bottom:10%;
+}
+#survey-form{
+    padding: 25px;
+    background-color: rgb(133, 247, 209, 0.8);
+}
+#name{
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+}
+#name-label {
+    margin-left: 10%;
+    font-size: 18px;
+}
+#email{
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+}
+#email-label{
+    margin-left: 10%;
+    font-size: 18px;
+}
+#number{
+    display: block;
+    width: 30%;
+    margin-left: 10%;
+    padding: 10px;
+    border: none;
+}
+#number-label{
+    margin-left: 10%;
+    font-size: 18px;
+}
+#dropdown{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    background-color: rgb(79, 180, 101);
+    color: #d2f8d2;
+    font-size: 20px;
+}
+#drop{
+    margin-left: 10%;
+    font-size: 18px;
+    
+}
+legend{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#radio-field{
+    margin-left: 10%;
+    padding: 10px;
+    width: 75%;
+    border-color: black;
+   
+}
+#check-field{
+    margin-left: 10%;
+    padding: 10px;
+    width: 75%;
+    border-color: black;
+}
+input[type=radio]{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#comment-label{
+    margin-left: 10%;
+    font-size: 18px;  
+}
+#comment{
+    margin-left: 10%;  
+    margin-top:10px;  
+    height:30vh;
+    width: 40vw;
+    border: none;
+}
+#submit{
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 75%;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgb(79, 180, 101);
+    color: aquamarine;
+    border: none;
+}
+
+@media only screen and(max-width:600px){
+    main{
+        width: 80%;
+    }
+}
